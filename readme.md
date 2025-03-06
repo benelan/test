@@ -5,6 +5,26 @@ A repo for testing GitHub Actions and other automation.
 ## Contributors
 
 <!-- readme: contributors -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/benelan">
+                    <img src="https://avatars.githubusercontent.com/u/10986395?v=4" width="100;" alt="benelan"/>
+                    <br />
+                    <sub><b>Ben Elan</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/andygup">
+                    <img src="https://avatars.githubusercontent.com/u/510440?v=4" width="100;" alt="andygup"/>
+                    <br />
+                    <sub><b>Andy</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: contributors -end -->
 
 ## License
