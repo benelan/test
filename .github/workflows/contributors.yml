@@ -14,7 +14,7 @@ jobs:
       - name: Update Contributor List
         uses: benelan/contributors-readme-action@no-commit-or-push
         env:
-          GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           readme_path: readme.md
           no_commit_or_push: true
@@ -29,4 +29,4 @@ jobs:
           delete-branch: true
           commit-message: "docs: update list of contributors"
           title: "docs: update list of contributors"
-          token: ${{ secrets.ADMIN_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
