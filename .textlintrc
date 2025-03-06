@@ -1,0 +1,16 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "terminology": {
+      "exclude": [
+        "JavaScript",
+        "TypeScript",
+        "repo\\b",
+        "bug[- ]fix(es)?",
+        "pre[- ]release(s)?"
+      ]
+    }
+  }
+}
