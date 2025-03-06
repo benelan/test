@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update Contributor List
-        uses: benelan/contributors-readme-action@no-commit-or-push
+        uses: benelan/contributors-readme-action@74e2bf3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
