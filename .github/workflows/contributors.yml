@@ -10,7 +10,7 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Update Contributor List
         uses: benelan/contributors-readme-action@74e2bf37858ca1bf098d142ab2f3853094f78cdd
         env:
